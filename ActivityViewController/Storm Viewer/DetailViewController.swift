@@ -46,6 +46,8 @@ class DetailViewController: UIViewController {
         
     }
     
+    // function to share the image
+    
     func shareTapped() {
         
         let vc = UIActivityViewController(activityItems: [imageView.image!], applicationActivities: []) // we know the image exists - !
