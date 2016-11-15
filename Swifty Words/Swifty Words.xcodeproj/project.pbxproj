@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		938700B61DDB63F4003941DB /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 938700B51DDB63F4003941DB /* level1.txt */; };
+		938700B81DDB63FD003941DB /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 938700B71DDB63FD003941DB /* level2.txt */; };
 		93A2966D1DDAAFE10089FB64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A2966C1DDAAFE10089FB64 /* AppDelegate.swift */; };
 		93A2966F1DDAAFE10089FB64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A2966E1DDAAFE10089FB64 /* ViewController.swift */; };
 		93A296721DDAAFE10089FB64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A296701DDAAFE10089FB64 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		938700B51DDB63F4003941DB /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		938700B71DDB63FD003941DB /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
 		93A296691DDAAFE10089FB64 /* Swifty Words.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swifty Words.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A2966C1DDAAFE10089FB64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93A2966E1DDAAFE10089FB64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				93A296731DDAAFE10089FB64 /* Assets.xcassets */,
 				93A296751DDAAFE10089FB64 /* LaunchScreen.storyboard */,
 				93A296781DDAAFE10089FB64 /* Info.plist */,
+				938700B51DDB63F4003941DB /* level1.txt */,
+				938700B71DDB63FD003941DB /* level2.txt */,
 			);
 			path = "Swifty Words";
 			sourceTree = "<group>";
@@ -123,7 +129,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				938700B81DDB63FD003941DB /* level2.txt in Resources */,
 				93A296771DDAAFE10089FB64 /* LaunchScreen.storyboard in Resources */,
+				938700B61DDB63F4003941DB /* level1.txt in Resources */,
 				93A296741DDAAFE10089FB64 /* Assets.xcassets in Resources */,
 				93A296721DDAAFE10089FB64 /* Main.storyboard in Resources */,
 			);
@@ -299,6 +307,7 @@
 				93A2967D1DDAAFE10089FB64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
